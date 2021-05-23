@@ -1,6 +1,6 @@
 package com.company.creational.abstractfactory;
 
-public enum FactoryType {
+public enum ElectronicFactoryType {
     COMPUTER,
     PHONE
 }

@@ -6,6 +6,7 @@ import com.company.creational.factory.model.VehicleType;
 public class Main {
 
     public static void main(String[] args) {
+
         VehicleFactory vehicleFactory = new VehicleFactory();
 
         Vehicle car = vehicleFactory.createVehicle(VehicleType.CAR);

@@ -8,19 +8,16 @@ import com.company.creational.abstractfactory.model.phone.PhoneType;
 public class Main {
 
     public static void main(String[] args) {
-        ElectronicFactory phoneFactory = FactoryProducer.getFactory(FactoryType.PHONE);
 
+        ElectronicFactory phoneFactory = ElectronicFactoryProducer.getFactory(ElectronicFactoryType.PHONE);
         Phone smartPhone = phoneFactory.createPhone(PhoneType.SMART_PHONE);
         smartPhone.makeCall();
-
         Phone landPhone = phoneFactory.createPhone(PhoneType.LAND_PHONE);
         landPhone.makeCall();
 
-        ElectronicFactory computerFactory = FactoryProducer.getFactory(FactoryType.COMPUTER);
-
+        ElectronicFactory computerFactory = ElectronicFactoryProducer.getFactory(ElectronicFactoryType.COMPUTER);
         Computer laptopComputer = computerFactory.createComputer(ComputerType.LAPTOP);
         laptopComputer.run();
-
         Computer desktopComputer = computerFactory.createComputer(ComputerType.DESKTOP);
         desktopComputer.run();
     }

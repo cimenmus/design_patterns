@@ -3,9 +3,9 @@ package com.company.creational.abstractfactory;
 import com.company.creational.abstractfactory.model.computer.ComputerFactory;
 import com.company.creational.abstractfactory.model.phone.PhoneFactory;
 
-public class FactoryProducer {
+public class ElectronicFactoryProducer {
 
-    public static ElectronicFactory getFactory(FactoryType type){
+    public static ElectronicFactory getFactory(ElectronicFactoryType type){
         ElectronicFactory electronicFactory = null;
         switch (type){
             case PHONE:
