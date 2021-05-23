@@ -1,7 +1,7 @@
 package com.company.creational.abstractfactory;
 
-import com.company.creational.abstractfactory.computer.ComputerFactory;
-import com.company.creational.abstractfactory.phone.PhoneFactory;
+import com.company.creational.abstractfactory.model.computer.ComputerFactory;
+import com.company.creational.abstractfactory.model.phone.PhoneFactory;
 
 public class FactoryProducer {
 

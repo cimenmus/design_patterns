@@ -1,9 +1,9 @@
 package com.company.creational.abstractfactory;
 
-import com.company.creational.abstractfactory.computer.Computer;
-import com.company.creational.abstractfactory.computer.ComputerType;
-import com.company.creational.abstractfactory.phone.Phone;
-import com.company.creational.abstractfactory.phone.PhoneType;
+import com.company.creational.abstractfactory.model.computer.Computer;
+import com.company.creational.abstractfactory.model.computer.ComputerType;
+import com.company.creational.abstractfactory.model.phone.Phone;
+import com.company.creational.abstractfactory.model.phone.PhoneType;
 
 public interface ElectronicFactory {
 

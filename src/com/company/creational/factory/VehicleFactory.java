@@ -1,5 +1,7 @@
 package com.company.creational.factory;
 
+import com.company.creational.factory.model.*;
+
 /**
  * Factory Pattern
  *

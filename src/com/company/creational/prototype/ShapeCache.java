@@ -1,5 +1,9 @@
 package com.company.creational.prototype;
 
+import com.company.creational.prototype.model.Circle;
+import com.company.creational.prototype.model.Rectangle;
+import com.company.creational.prototype.model.Shape;
+
 import java.util.Hashtable;
 
 /**
