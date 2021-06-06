@@ -1,4 +1,7 @@
-package com.company.structural;
+package com.company.structural.adapter;
+
+import com.company.structural.adapter.model.BTypePlug;
+import com.company.structural.adapter.model.Plug;
 
 public class BTypePlugAdapter implements Plug {
 

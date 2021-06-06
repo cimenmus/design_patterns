@@ -1,4 +1,8 @@
-package com.company.structural;
+package com.company.structural.adapter;
+
+import com.company.structural.adapter.model.BTypePlug;
+import com.company.structural.adapter.model.CTypePlug;
+import com.company.structural.adapter.model.Plug;
 
 /**
  * Structural Pattern'ler nesnelerin birbirleri arasındaki ilişkileri düzenler

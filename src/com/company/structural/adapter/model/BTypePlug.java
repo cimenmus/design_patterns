@@ -1,12 +1,12 @@
-package com.company.structural;
+package com.company.structural.adapter.model;
 
 public class BTypePlug {
 
-    void printOnStatus(){
+    public void printOnStatus(){
         System.out.println("B Type plug status: 1");
     }
 
-    void printOffStatus(){
+    public void printOffStatus(){
         System.out.println("B Type plug status: 0");
     }
 }

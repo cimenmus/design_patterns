@@ -1,4 +1,4 @@
-package com.company.structural;
+package com.company.structural.adapter.model;
 
 public interface Plug{
 
