@@ -25,22 +25,19 @@ package com.company.structural.composite;
  *      - Component class'dan extend/implemente edilir
  */
 public class Main {
-
     /**
-     *                      Burak
-     *                        |
-     *            ---------------------------
-     *            |           |             |
-     *          Mike        Tobias          Nevi
-     *                                        |
-     *                                   -------------
-     *                                   |           |
-     *                                 Zing         Mario
-     *                                   |
-     *                                Tomas
-     * 
+     *            Burak
+     *              |
+     *  ---------------------------
+     *  |           |             |
+     * Mike       Tobias        Nevi
+     *                            |
+     *                        -------------
+     *                        |           |
+     *                      Zing         Mario
+     *                                    |
+     *                                  Tomas
      */
-
     public static void main(String[] args) {
 
         // Root oluşturulur.
